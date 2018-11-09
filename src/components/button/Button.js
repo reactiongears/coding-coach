@@ -35,7 +35,7 @@ const Button = (props) => {
 };
 
 Button.propTypes = {
-  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  size: PropTypes.oneOf(['small', 'medium', 'large', 'extra-large']),
   type: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'disabled', 'danger']),
   typography: PropTypes.oneOf(['uppercase', 'capitalize', 'lowercase', 'none']),
   shape: PropTypes.oneOf(['square', 'rounded', 'pill']),
